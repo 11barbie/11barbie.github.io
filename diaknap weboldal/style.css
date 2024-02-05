@@ -1,0 +1,18 @@
+:root
+{
+    --pink: #e761ad;
+}
+
+
+.navbar
+{
+    background-color: var(--pink);
+    color: #ffffff;
+}
+
+#pageLoader
+{
+    height: 100vh;
+    background-color: var(--pink);
+    width: 100%;
+}
