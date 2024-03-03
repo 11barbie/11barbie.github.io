@@ -8,6 +8,8 @@
 {
     background-color: var(--pink);
     color: #ffffff;
+    height: 5vh;
+    min-height: 50px;
 }
 
 #pageLoader
@@ -16,3 +18,23 @@
     background-color: var(--pink);
     width: 100%;
 }
+
+.accordion-button
+{
+    height: calc(95vh / 4);
+    font-size: xx-large;
+    min-height: 200px;
+    padding: 0px;
+}
+
+.accordion-button::after
+{
+    display: none;
+}
+
+.accordition-image
+{
+    height: 100%;
+    width: 100%;
+}
+
