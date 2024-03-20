@@ -135,7 +135,7 @@ td
 
 p
 {
-    font-size: x-large;
+    font-size: larger;
     text-align: justify;
     margin-left: auto;
     margin-right: auto;
@@ -168,7 +168,7 @@ p
 a
 {
     color: #de268f;
-    overflow-x: hidden;
+    overflow-x: clip;
     white-space: nowrap;
 }
 
