@@ -171,3 +171,9 @@ a
     overflow-x: hidden;
     white-space: nowrap;
 }
+
+span
+{
+    color: rgb(255, 79, 202);
+    font-weight: 900;
+}
