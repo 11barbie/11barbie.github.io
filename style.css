@@ -170,6 +170,8 @@ a
     color: #de268f;
     overflow-x: clip;
     white-space: nowrap;
+    flex-wrap: wrap;
+    display: flex;
 }
 
 span
