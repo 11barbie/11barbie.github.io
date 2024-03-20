@@ -83,6 +83,24 @@
 
 /*//////////////////////////////////////////*/
 
+.accordion-button.btn4
+{background-image: url(imgs/vr.png);transition: background-image 0.5s ease;}
+
+.accordion-button.btn4:active,
+.accordion-button.btn4[aria-expanded="true"]
+{background-image: url(imgs/vr_active.png);}
+
+/*//////////////////////////////////////////*/
+
+.accordion-button.btn5
+{background-image: url(imgs/szalon.png);transition: background-image 0.5s ease;}
+
+.accordion-button.btn5:active,
+.accordion-button.btn5[aria-expanded="true"]
+{background-image: url(imgs/szalon_active.png);}
+
+/*//////////////////////////////////////////*/
+
 h1
 {
     color: var(--pink);
@@ -94,6 +112,7 @@ h2
     color: var(--pink);
     font-size: xx-large;
     margin-bottom: 10%;
+    white-space: nowrap;
 }
 
 .darken
@@ -146,3 +165,9 @@ p
     border-color: #de268f;
 }
 
+a
+{
+    color: #de268f;
+    overflow-x: hidden;
+    white-space: nowrap;
+}
