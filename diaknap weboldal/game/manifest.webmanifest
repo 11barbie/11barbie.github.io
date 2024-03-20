@@ -1,0 +1,12 @@
+{
+  "name": "11B Racing",
+  "short_name": "11B Racing",
+  "id": "com.example.gamename",
+  "description": "This is a little game for Student Day",
+  "orientation": "landscape",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": []
+}
