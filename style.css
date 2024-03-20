@@ -25,7 +25,7 @@
 
 .accordion-button
 {
-    width: calc(100vw);
+    width: 100%;
     padding: 0px;
     background-size: cover;
     aspect-ratio: 2/1;
@@ -175,5 +175,5 @@ a
 span
 {
     color: rgb(255, 79, 202);
-    font-weight: 900;
+    font-weight: 700;
 }
