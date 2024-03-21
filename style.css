@@ -70,6 +70,7 @@ body
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    justify-content: center;
 }
 
 /*//////////////////////////////////////////*/
@@ -122,7 +123,12 @@ body
 h1
 {
     color: var(--pink);
-    font-size: 5em;
+    font-size: calc(10vw);
+    overflow-x: clip;
+    white-space: nowrap;
+    flex-wrap: wrap;
+    display: flex;
+    
 }
 
 h2
@@ -202,3 +208,28 @@ span
     font-weight: 700;
 }
 
+.col
+{
+margin: 5%;
+}
+
+.sponsor
+{
+    height: calc(10vh);
+    width: auto;
+    max-width: calc(80vw);
+}
+
+@media screen and (min-width: 768px) 
+{
+    .sponsor
+    {
+        height: calc(15vh);
+        width: auto;
+        max-width: calc(80vw);
+    }
+    h1
+    {
+    font-size: calc(5vw);
+    }
+}
