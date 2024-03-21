@@ -131,6 +131,10 @@ h2
     font-size: xx-large;
     margin-bottom: 10%;
     white-space: nowrap;
+    overflow-x: clip;
+    white-space: nowrap;
+    flex-wrap: wrap;
+    display: flex;
 }
 
 .darken
