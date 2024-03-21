@@ -3,16 +3,22 @@
     --pink: #de268f;
 }
 
+body
+{
+    background-color: #e9e2e6;
+}
+
 .accordion-body
 {
     color: #000000;
     padding: 0px;
     background-image: url();
-    width: calc(100vw);
+    width: 100%;
     background-size: contain;
     background-repeat: no-repeat;
     margin-top: 5%;
     border: 0px solid white;
+    padding-bottom: 10%;
 }
 
 .navbar
