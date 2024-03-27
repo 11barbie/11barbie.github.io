@@ -8,6 +8,11 @@ body
     background-color: #e9e2e6;
 }
 
+td
+{
+    font-size: large;
+}
+
 .accordion-body
 {
     color: #000000;
